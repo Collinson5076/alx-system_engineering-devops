@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "0 string SCHOOL school data file" > school && file -c -m school -o school.mgc && rm school
