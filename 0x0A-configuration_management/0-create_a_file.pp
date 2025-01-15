@@ -1,6 +1,6 @@
 # using puppet to create a file in /tmp
 
-file {'web-001':
+file {'web-01':
   path    => 'tmp/school/',
   mode    => '0744',
   owner   => 'www-data',
